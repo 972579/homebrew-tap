@@ -3,9 +3,9 @@
 cask "genimage-mcp" do
   arch arm: "arm64", intel: "amd64"
 
-  version "1.1.1"
-  sha256 arm:   "33d07d1f6632d1c56e9da1f9df791cef690c78067088216e2f4ac4f218924e35",
-         intel: "961b73d7d228c0ddd7339a7e974d2b48e93c837847faf9c070ab825b5e806c80"
+  version "1.1.2"
+  sha256 arm:   "c687b941dcdefa4cb8405cb607d98d7bd29db0ef603a9afa13960c958659f937",
+         intel: "eb207e612ed036d2b3b53c359941ef92556f55de5471e04157592f6a56d8c31e"
 
   url "https://github.com/972579/open-image-mcp/releases/download/v#{version}/genimage-#{version}-darwin-#{arch}.zip"
   name "GenImage MCP"
